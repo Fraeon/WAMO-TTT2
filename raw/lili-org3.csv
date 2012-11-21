@@ -1,0 +1,93 @@
+"move","height","damage","startup","guard",hit,stance
+1,"high",9,10,1,8,no
+"1,2","high,high","9,16",10,-1,8,no
+"1,2,3","high,high,low","9,16,13",0,-16,-5,no
+"1,2,4","high,high,mid","9,16,27",0,-9,kd,no
+2,"high",10,10,0,8,no
+"2,3","high,low","10,13",0,-16,-5,no
+"2,4","high,high","10,27",10,-4,kd,no
+3,"mid",16,15,-14,-3,no
+"3,1","mid,mid","16,27",0,-14,kd,no
+"3,2","mid,high","16,1",0,-7,0,no
+"3,2,3","mid,high,high","16,10,29",0,-10,kd,no
+1+2,"mid",33,12,-12,kd,no
+3+4,"mid","24,5,5",36,-8,jg,no
+f2,"high",16,13,-9,-1,no
+"f2,3","high,mid","16,27",13,-12,kd,no
+f3,"mid",35,20,-6,kd,no
+f4,"mid",31,17,-11,kd,no
+f1+2,"mid",22,14,-6,+3,no
+f3+4,"mid",10,18,-25,kd,no
+"f3+4,3","mid,mid","10,27",0,-8,kd,no
+"f3+4,3,4","mid,mid,mid","10,27,27",0,-20,kd,no
+df1,"mid",16,13,-1,7,no
+df2,"mid",21,16,-11,jg,no
+df3,"mid",31,20,3,8,no
+df4,"mid",18,15,-8,-2,no
+"df4,4","mid,low","18,28",0,-16,0,no
+df3+4,"mid",18,24,-5,kd,no
+"df+3+4,3+4","mid,mid,mid","18,6,27",0,-9,kd,no
+d1,"low",13,18,-11,0,no
+"d1,2","low,high","13,1",b,-8,3,no
+"d1,2,4","low,high,mid","13,10,32",0,-15,kd,no
+d2,"mid",21,16~17,-7,-1,no
+"d2,2","mid,high","21,13",0,-10,-4,no
+"d2,2,3","mid,high,high","21,13,32",0,-3,kd,no
+"d2,2,4","mid,high,mid","21,13,32",0,-17,kd,no
+d3,"low",18,19,-12,1,no
+d3+4,"mid",31,17,-21,jg,no
+db3,"high",27,19~20,-9,kd,no
+db4,"low",27,24,-24,5,no
+db3+4,"low",27,24,-18,jg,no
+b1,"mid",21,17,-6,2,no
+"b1,4","mid,mid","21,29",17,-11,kd,no
+b2,"high",20,13,-11,0,no
+"b2,1","high,high","20,13",0,-4,7,no
+"b3,3 / b4,3","low",33,24,-18,kd,no
+"b3,4 / b4,3","mid",36,23,-6,kd,no
+b1+2,"mid",32,30,-16,kd,no
+b1+4,ub,67,63,kd,kd,no
+ub/u3+4,"mid",33,22,-16,jg,no
+"ub/u3+4, f","mid",33,22,-13,jg,no
+"ub/u3+4,3","mid,mid","33,2",0,-12,0,no
+uf3,"mid",17,15,-13,jg,no
+uf4,"mid",24,28,-12,1,no
+"uf4,3","mid,mid","24,31",0,-13,kd,no
+uf3+4,"mid",20,15,-9,2,no
+"uf3+4,3","mid,high","20,24",0,-11,0,no
+"uf3+4,3+4","mid,mid","20,29",0,-21,kd,no
+ff2,"mid",37,18,-11,kd,no
+ff3,"mid",20,22,-12,0,no
+"ff3,3+4","mid,mid,mid","20,6,27",0,-11,kd,no
+ff4,"low",31,22,-13,3,no
+ff3+4,"mid",40,20,-6,kd,no
+wr3,"mid",40,26,-4,d,no
+ws1,"mid",20,13,-11,0,no
+"ws1,2","mid,high","20,21",13,-3,8,no
+"ws1,2,4","mid,high,low","20,21,27",0,-14,kd,no
+ws2,"mid",22,17,-11,jg,no
+ws3,"mid",27,16,-21,jg,no
+"ws3,4","mid,mid","27,33",0,0,kd,no
+ws4,"mid",24,11,-8,kd,no
+"fc df1","mid",33,14,-12,kd,no
+"fc ddf3","low",25,23,-18,-2,no
+ss3,"mid",27,19,-9,jg,no
+ss1+2,"mid",28,19,-2,kd,no
+qcf1,"mid",21,15,-14,-3,no
+"qcf1,2","mid,mid","21,27",15,-14,kd,no
+qcf2,"mid",32,16,-6,+5,no
+qcf3,"mid",27,16,-21,jg,no
+"qcf3,4","mid,mid","27,33",0,0,kd,no
+qcf4,"mid",24,11,-8,kd,no
+"qcf3+4","high,high","16,8",14,+6,kd,no
+"bt1","high","10",8,-8,+3,yes
+"bt1,2","high, high","10,17",8,-3,+5,yes
+"bt2","mid",22,14,-5,+3,yes
+"bt4","mid, mid","13,27",26,-10,kd,yes
+"bt4,3+4","mid, mid","13,27,13,27",0,-10,kd,yes
+"bt1+2","mid,mid","6,27",13,-10,kd,yes
+"bt3+4","mid",24,29,-4,+5,yes
+"bt3+4","mid,mid","24,28",0,-11,kd,yes
+"bt d3","low",21,17,-20,-4,yes
+"bt d3,4","low,mid","21,29",0,-13,kd,yes
+"bt d3+4","low","29",22,-24,kd,yes

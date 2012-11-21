@@ -1,0 +1,107 @@
+body {
+	background-color: #fff;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:right top; 		
+}
+
+body, td, th {
+  background-color:#fff;
+  margin:0;
+  padding:5px 20px;
+  color:#000;
+  font-family:tahoma,helvetica,serif;
+  font-size:small;
+}
+
+img{
+  border:none;
+}
+a {
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0px;
+  empty-cells: show;
+  background-color:#303030;
+  border-color:#454545 black black #454545;
+  border-style:none;
+  border-width:1px;
+  width: 600px;
+  opacity:0.85;
+}
+
+table th {
+  color:#D0D0FF;
+  background-color: #282828;
+}
+table td{
+  text-align: left;
+  vertical-align: top;
+  padding: 4px;
+  background-color:#aaa;
+  border-bottom:1px solid #000;
+  color:#000;
+  font-family:tahoma,helvetica,serif;
+}
+
+table .undefined {
+  display: none;
+}
+
+table tr {
+}
+
+ul {
+  list-style-type: circle;
+}
+
+h1 {
+  font-family: Arial;
+}
+
+.best {
+  color: #555500;
+}
+
+.medium {
+  color: #22aa00;
+  font-weight: 900;
+}
+
+.copy{
+  text-align:center;
+}
+
+#logo{
+  text-align:center;
+}
+
+table.move-review { 
+  width: 200px;
+}
+
+table.move-review caption{
+  text-align:center;
+  font-weight:900;
+  font-size:1.4em;
+}
+
+table.move-review th{
+  text-align:right;
+  padding:2px;
+  font-size:0.8em;
+  width: 50px;
+  border-bottom:1px solid #000;    
+}
+
+table.move-review td{
+  text-align:left;
+  font-size:0.8em;
+  border-bottom: 0;
+}
